@@ -15,7 +15,7 @@ const anotherId = Symbol('123')
 
 console.log(id === anotherId);
 
-const bigNumber = 1234567n
+// const bigNumber = 1234567n
 
 
 
@@ -26,6 +26,13 @@ const bigNumber = 1234567n
 // Types : Arrays , Objects , Functions
 
 const heros = ["shaktiman","naagraj", "doga"]
-{
-    name: ""
+let myObj = {
+    name: "somesh",
+    age : 24,
+
 }
+const myFunction = function (){
+    console.log ("hello world");
+}
+
+console.log( typeof bigNumber);
