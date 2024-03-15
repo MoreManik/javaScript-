@@ -36,3 +36,30 @@ const myFunction = function (){
 }
 
 console.log( typeof bigNumber);
+
+
+//******************************************* */
+ 
+
+
+//Stack (Primitive) - get copy of , Heap (Non-Primitive) -reference of original value
+let myName = "soma"
+let anothername = myName
+anothername = "chaiaurcode"
+
+
+console.log(myName);
+console.log(anothername);
+
+
+let userOne = {
+    email : "user@google.com",
+    upi: "user@ybl"
+
+}
+let userTwo = userOne
+
+userTwo.email = "somesh@google.com"
+
+console.log(userOne);
+console.log(userTwo);
